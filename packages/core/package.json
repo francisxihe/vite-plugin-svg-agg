@@ -1,0 +1,58 @@
+{
+  "name": "vite-plugin-svg-agg",
+  "version": "0.0.1",
+  "description": "Vite Plugin for fast creating SVG sprites.",
+  "main": "dist/index.cjs",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "require": "./dist/index.cjs",
+      "import": "./dist/index.mjs",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "license": "MIT",
+  "author": "Vben",
+  "files": [
+    "dist",
+    "client.d.ts"
+  ],
+  "scripts": {
+    "dev": "pnpm unbuild --stub",
+    "build": "pnpm unbuild",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "vite",
+    "vite-plugin",
+    "svg",
+    "sprite",
+    "svgo",
+    "vben"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anncwb/vite-plugin-svg-icons",
+    "directory": "packages/core"
+  },
+  "bugs": {
+    "url": "https://github.com/anncwb/vite-plugin-svg-i cons/issues"
+  },
+  "homepage": "https://github.com/anncwb/vite-plugin-svg-icons/tree/master/#readme",
+  "dependencies": {
+    "@types/svgo": "^2.6.1",
+    "cors": "^2.8.5",
+    "debug": "^4.3.3",
+    "etag": "^1.8.1",
+    "fs-extra": "^10.0.0",
+    "pathe": "^0.2.0",
+    "svg-baker": "1.7.0",
+    "svgo": "^2.8.0",
+    "fast-glob": "^3.2.11"
+  },
+  "peerDependencies": {
+    "vite": ">=2.0.0"
+  },
+  "devDependencies": {}
+}
