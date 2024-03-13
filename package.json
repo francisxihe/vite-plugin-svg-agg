@@ -1,5 +1,16 @@
 {
   "private": true,
+  "name": "vite-plugin-svg-agg",
+  "main": "packages/core/dist/index.cjs",
+  "module": "packages/core/dist/index.mjs",
+  "types": "packages/core/dist/index.d.ts",
+  "exports": {
+    ".": {
+      "require": "./packages/core/dist/index.cjs",
+      "import": "./packages/core/dist/index.mjs",
+      "types": "./packages/core/dist/index.d.ts"
+    }
+  },
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev",
@@ -40,6 +51,5 @@
     "vitest": "^0.2.5"
   },
   "packageManager": "pnpm@8.9.0",
-  "dependencies": {
-  }
+  "dependencies": {}
 }

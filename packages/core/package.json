@@ -13,7 +13,6 @@
     }
   },
   "license": "MIT",
-  "author": "Vben",
   "files": [
     "dist",
     "client.d.ts"
