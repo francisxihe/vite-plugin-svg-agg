@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "vite-plugin-svg-agg",
+  "name": "@vision/vite-plugin-svg-agg",
   "main": "packages/core/dist/index.cjs",
   "module": "packages/core/dist/index.mjs",
   "types": "packages/core/dist/index.d.ts",

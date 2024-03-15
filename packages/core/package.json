@@ -1,5 +1,5 @@
 {
-  "name": "vite-plugin-svg-agg",
+  "name": "@vision/vite-plugin-svg-agg",
   "version": "0.0.1",
   "description": "Vite Plugin for fast creating SVG sprites.",
   "main": "dist/index.cjs",
